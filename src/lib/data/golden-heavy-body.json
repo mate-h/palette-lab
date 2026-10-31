@@ -1,0 +1,280 @@
+{
+  "source": "https://goldenartistcolors.com/products/golden-artist-acrylics/heavy-body",
+  "retrieved": "2026-08-15",
+  "notes": "Public Heavy Body product-page fields only. Lab and tint strength are manufacturer scalars, not spectral K/S. swatchHex is the median sRGB of the non-white interior of Golden's masstone photo — that photo is not the same as product-page Lab, especially for transparent paints.",
+  "paints": [
+    {
+      "id": "tw",
+      "url": "https://goldenartistcolors.com/products/heavy-body-acrylic-color-titanium-white",
+      "name": "Titanium White",
+      "item": "1380",
+      "series": 1,
+      "description": "Our most opaque white, made with Titanium Dioxide, this is an essential white for most painters. (Series 1)",
+      "opacity": "opaque",
+      "lightfastness": "Excellent",
+      "munsell": { "hue": "6.2 GY", "value": 9.7, "chroma": 0.1 },
+      "glossAverage": 43.15,
+      "viscosityCps": { "min": 22000, "max": 24000 },
+      "lab": { "l": 98.25, "a": -0.74, "b": 1.24 },
+      "swatchHex": "#d4e5f1",
+      "tintStrength": 42.25,
+      "pigment": {
+        "colourIndex": "PW6",
+        "colourIndexNumber": "77891",
+        "commonName": "Titanium White",
+        "chemicalDescription": "Titanium Dioxide Rutile",
+        "classification": "Synthetic Inorganic"
+      },
+      "lines": ["Heavy Body", "Fluid", "OPEN", "High Flow"],
+      "sizes": [
+        { "size": "2 oz tube", "item": "0001380-2", "upc": "738797138025" },
+        { "size": "5 oz tube", "item": "0001380-3", "upc": "738797138032" },
+        { "size": "4 oz jar", "item": "0001380-4", "upc": "738797138049" },
+        { "size": "8 oz jar", "item": "0001380-5", "upc": "738797138056" },
+        { "size": "16 oz jar", "item": "0001380-6", "upc": "738797138063" },
+        { "size": "32 oz jar", "item": "0001380-7", "upc": "738797138070" },
+        { "size": "128 oz HDPE white pail", "item": "0001380-8", "upc": "738797138087" }
+      ],
+      "images": {
+        "swatch": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/swatches-web-1000px/1380-titanium-white-swatch.webp",
+        "tintGlaze": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/tint-glaze/1380-titanium-white-tint-glaze.webp",
+        "tube2oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/02-oz/1380-2-titanium-white.webp",
+        "jar8oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/08-oz/1380-5-titanium-white.webp"
+      }
+    },
+    {
+      "id": "cb",
+      "url": "https://goldenartistcolors.com/products/heavy-body-acrylic-color-carbon-black",
+      "name": "Carbon Black",
+      "item": "1040",
+      "series": 1,
+      "description": "Produced with soot from burning gas the dark and fine particle size makes this our darkest most neutral black. (Series 1)",
+      "opacity": "opaque",
+      "lightfastness": "Excellent",
+      "munsell": { "hue": "4.1 P", "value": 2.5, "chroma": 0 },
+      "glossAverage": 79.23,
+      "viscosityCps": { "min": 23000, "max": 27000 },
+      "lab": { "l": 25.37, "a": 0.1, "b": -0.14 },
+      "swatchHex": "#0a0e0f",
+      "tintStrength": 56.55,
+      "pigment": {
+        "colourIndex": "PBk7",
+        "colourIndexNumber": "77266",
+        "commonName": "Carbon Black",
+        "chemicalDescription": "Nearly Pure Amorphous Carbon",
+        "classification": "Natural Inorganic"
+      },
+      "lines": ["Heavy Body", "Fluid", "OPEN", "High Flow"],
+      "sizes": [
+        { "size": "2 oz tube", "item": "0001040-2", "upc": "738797104020" },
+        { "size": "5 oz tube", "item": "0001040-3", "upc": "738797104037" },
+        { "size": "4 oz jar", "item": "0001040-4", "upc": "738797104044" },
+        { "size": "8 oz jar", "item": "0001040-5", "upc": "738797104051" },
+        { "size": "16 oz jar", "item": "0001040-6", "upc": "738797104068" },
+        { "size": "32 oz jar", "item": "0001040-7", "upc": "738797104075" },
+        { "size": "128 oz HDPE white pail", "item": "0001040-8", "upc": "738797104082" }
+      ],
+      "images": {
+        "swatch": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/swatches-web-1000px/1040-carbon-black-swatch.webp",
+        "tintGlaze": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/tint-glaze/1040-carbon-black-tint-glaze.webp",
+        "tube2oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/02-oz/1040-2-carbon-black.webp",
+        "jar8oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/08-oz/1040-5-carbon-black.webp"
+      }
+    },
+    {
+      "id": "by",
+      "url": "https://goldenartistcolors.com/products/heavy-body-acrylic-color-benzimidazolone-yellow-medium",
+      "name": "Benzimidazolone Yellow Medium",
+      "item": "1008",
+      "series": 3,
+      "description": "Excellent lightfast and permenant yellow. (Series 3)",
+      "opacity": "semi-transparent",
+      "lightfastness": "Excellent",
+      "munsell": { "hue": "2.5 Y", "value": 8.3, "chroma": 13.7 },
+      "glossAverage": 96,
+      "viscosityCps": { "min": 14000, "max": 18000 },
+      "lab": { "l": 81.55, "a": 15.72, "b": 90.13 },
+      "swatchHex": "#fce327",
+      "tintStrength": 93.97,
+      "pigment": {
+        "colourIndex": "PY154",
+        "colourIndexNumber": "11781",
+        "commonName": "Benzimidazolone Yellow H3G",
+        "chemicalDescription": "Benzimidazolone",
+        "classification": "Synthetic Organic"
+      },
+      "lines": ["Heavy Body", "OPEN", "Fluid", "High Flow"],
+      "sizes": [
+        { "size": "2 oz tube", "item": "0001008-2", "upc": "738797014312" },
+        { "size": "5 oz tube", "item": "0001008-3", "upc": "738797014329" },
+        { "size": "8 oz jar", "item": "0001008-5", "upc": "738797014343" },
+        { "size": "16 oz jar", "item": "0001008-6", "upc": "738797014350" },
+        { "size": "32 oz jar", "item": "0001008-7", "upc": "738797014367" },
+        { "size": "128 oz HDPE white pail", "item": "0001008-8", "upc": "738797014374" },
+        { "size": "4 oz jar", "item": "0001008-4", "upc": "738797014336", "discontinued": true }
+      ],
+      "images": {
+        "swatch": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/swatches-web-1000px/1008-benzimidazolone-yellow-medium-swatch.webp",
+        "tintGlaze": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/tint-glaze/1008-benzimidazolone-yellow-medium-tint-glaze.webp",
+        "tube2oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/02-oz/1008-2-benzimidazolone-yellow-medium.webp",
+        "jar8oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/08-oz/1008-5-benzimidazolone-yellow-medium.webp"
+      }
+    },
+    {
+      "id": "qm",
+      "url": "https://goldenartistcolors.com/products/heavy-body-acrylic-color-quinacridone-magenta",
+      "name": "Quinacridone Magenta",
+      "item": "1305",
+      "series": 7,
+      "description": "A transparent \"quin,\" this single pigment color is a terrific start for brilliant reds and pinks as well as fiery glazes that are exactly what one associates with magenta. (Series 7)",
+      "opacity": "transparent",
+      "lightfastness": "Excellent",
+      "munsell": { "hue": "1.5 R", "value": 3.1, "chroma": 5.8 },
+      "glossAverage": 97.99,
+      "viscosityCps": { "min": 14000, "max": 17000 },
+      "lab": { "l": 31.07, "a": 25.99, "b": 5.11 },
+      "swatchHex": "#a1092f",
+      "tintStrength": 73.51,
+      "pigment": {
+        "colourIndex": "PR122",
+        "colourIndexNumber": "73915",
+        "commonName": "Quinacridone Magenta",
+        "chemicalDescription": "Quinacridone",
+        "classification": "Synthetic Organic"
+      },
+      "lines": ["Heavy Body", "Fluid", "OPEN", "High Flow"],
+      "sizes": [
+        { "size": "2 oz tube", "item": "0001305-2", "upc": "738797130524" },
+        { "size": "5 oz tube", "item": "0001305-3", "upc": "738797130531" },
+        { "size": "4 oz jar", "item": "0001305-4", "upc": "738797130548" },
+        { "size": "8 oz jar", "item": "0001305-5", "upc": "738797130555" },
+        { "size": "16 oz jar", "item": "0001305-6", "upc": "738797130562" },
+        { "size": "32 oz jar", "item": "0001305-7", "upc": "738797130579" },
+        { "size": "128 oz HDPE white pail", "item": "0001305-8", "upc": "738797130586" }
+      ],
+      "images": {
+        "swatch": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/swatches-web-1000px/1305-quinacridone-magenta-swatch.webp",
+        "tintGlaze": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/tint-glaze/1305-quinacridone-magenta-tint-glaze.webp",
+        "tube2oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/02-oz/1305-2-quinacridone-magenta.webp",
+        "jar8oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/08-oz/1305-5-quinacridone-magenta.webp"
+      }
+    },
+    {
+      "id": "pb",
+      "url": "https://goldenartistcolors.com/products/heavy-body-acrylic-color-phthalo-blue-green-shade",
+      "name": "Phthalo Blue (Green Shade)",
+      "item": "1255",
+      "series": 4,
+      "description": "The greenish variation on this very powerful tinting versatile blue. When used thickly it is dark and opaque, but phthalo extends beautifully for glazes. (Series 4)",
+      "opacity": "transparent",
+      "lightfastness": "Excellent",
+      "munsell": { "hue": "9.2 PB", "value": 2.4, "chroma": 4.3 },
+      "glossAverage": 94.21,
+      "viscosityCps": { "min": 16000, "max": 20000 },
+      "lab": { "l": 25.61, "a": 6.98, "b": -18.05 },
+      "swatchHex": "#0a40a7",
+      "tintStrength": 71.17,
+      "pigment": {
+        "colourIndex": "PB15:3",
+        "colourIndexNumber": "74160",
+        "commonName": "Phthalo Blue Green Shade",
+        "chemicalDescription": "Copper Phthalocyanine",
+        "classification": "Synthetic Organic"
+      },
+      "lines": ["Heavy Body", "Fluid", "OPEN", "High Flow"],
+      "sizes": [
+        { "size": "2 oz tube", "item": "0001255-2", "upc": "738797125520" },
+        { "size": "5 oz tube", "item": "0001255-3", "upc": "738797125537" },
+        { "size": "4 oz jar", "item": "0001255-4", "upc": "738797125544" },
+        { "size": "8 oz jar", "item": "0001255-5", "upc": "738797125551" },
+        { "size": "16 oz jar", "item": "0001255-6", "upc": "738797125568" },
+        { "size": "32 oz jar", "item": "0001255-7", "upc": "738797125575" },
+        { "size": "128 oz HDPE white pail", "item": "0001255-8", "upc": "738797125582" }
+      ],
+      "images": {
+        "swatch": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/swatches-web-1000px/1255-phthalo-blue-green-shade-swatch.webp",
+        "tintGlaze": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/tint-glaze/1255-phthalo-blue-green-shade-tint-glaze.webp",
+        "tube2oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/02-oz/1255-2-phthalo-blue-green-shade.webp",
+        "jar8oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/08-oz/1255-5-phthalo-blue-green-shade.webp"
+      }
+    },
+    {
+      "id": "pg",
+      "url": "https://goldenartistcolors.com/products/heavy-body-acrylic-color-phthalo-green-blue-shade",
+      "name": "Phthalo Green (Blue Shade)",
+      "item": "1270",
+      "series": 4,
+      "description": "Phthalocyanine is among the strongest tinting pigments available, while semi-opaque in masstone or full strength, it makes very transparent glazes. (Series 4)",
+      "opacity": "transparent",
+      "lightfastness": "Excellent",
+      "munsell": { "hue": "6.8 B", "value": 2.5, "chroma": 1.8 },
+      "glossAverage": 94.02,
+      "viscosityCps": { "min": 16000, "max": 20000 },
+      "lab": { "l": 26.4, "a": -6.93, "b": -5.36 },
+      "swatchHex": "#04734a",
+      "tintStrength": 78.54,
+      "pigment": {
+        "colourIndex": "PG7",
+        "colourIndexNumber": "74260",
+        "commonName": "Phthalo Green Blue Shade",
+        "chemicalDescription": "Chlorinated Copper Phthalocyanine",
+        "classification": "Synthetic Organic"
+      },
+      "lines": ["Heavy Body", "Fluid", "OPEN", "High Flow"],
+      "sizes": [
+        { "size": "2 oz tube", "item": "0001270-2", "upc": "738797127029" },
+        { "size": "5 oz tube", "item": "0001270-3", "upc": "738797127036" },
+        { "size": "8 oz jar", "item": "0001270-5", "upc": "738797127050" },
+        { "size": "16 oz jar", "item": "0001270-6", "upc": "738797127067" },
+        { "size": "32 oz jar", "item": "0001270-7", "upc": "738797127074" },
+        { "size": "128 oz HDPE white pail", "item": "0001270-8", "upc": "738797127081" },
+        { "size": "4 oz jar", "item": "0001270-4", "upc": "738797127043", "discontinued": true }
+      ],
+      "images": {
+        "swatch": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/swatches-web-1000px/1270-phthalo-green-blue-shade-swatch.webp",
+        "tintGlaze": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/tint-glaze/1270-phthalo-green-blue-shade-tint-glaze.webp",
+        "tube2oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/02-oz/1270-2-phthalo-green-blue-shade.webp",
+        "jar8oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/08-oz/1270-5-phthalo-green-blue-shade.webp"
+      }
+    },
+    {
+      "id": "yo",
+      "url": "https://goldenartistcolors.com/products/heavy-body-acrylic-color-yellow-ochre",
+      "name": "Yellow Ochre",
+      "item": "1407",
+      "series": 1,
+      "description": "One of the earliest pigments known to man, ochres are mineral oxides used in colors from the reddish brown to, in this case, yellow-brown range. This very opaque and lightfast color is often considered essential to a painters' palette. (Series 1)",
+      "opacity": "semi-opaque",
+      "lightfastness": "Excellent",
+      "munsell": { "hue": "8.8 YR", "value": 5.8, "chroma": 6.8 },
+      "glossAverage": 62.36,
+      "viscosityCps": { "min": 20000, "max": 24000 },
+      "lab": { "l": 57.84, "a": 16.76, "b": 39.65 },
+      "swatchHex": "#d88f36",
+      "tintStrength": 91.1,
+      "pigment": {
+        "colourIndex": "PY42",
+        "colourIndexNumber": "77492",
+        "commonName": "Iron Oxide Yellow",
+        "chemicalDescription": "Synthetic Hydrated Iron Oxide",
+        "classification": "Synthetic Inorganic"
+      },
+      "lines": ["Heavy Body", "Fluid", "OPEN", "High Flow"],
+      "sizes": [
+        { "size": "2 oz tube", "item": "0001407-2", "upc": "738797140721" },
+        { "size": "5 oz tube", "item": "0001407-3", "upc": "738797140738" },
+        { "size": "4 oz jar", "item": "0001407-4", "upc": "738797140745" },
+        { "size": "8 oz jar", "item": "0001407-5", "upc": "738797140752" },
+        { "size": "16 oz jar", "item": "0001407-6", "upc": "738797140769" },
+        { "size": "32 oz jar", "item": "0001407-7", "upc": "738797140776" },
+        { "size": "128 oz HDPE white pail", "item": "0001407-8", "upc": "738797140783" }
+      ],
+      "images": {
+        "swatch": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/swatches-web-1000px/1407-yellow-ochre-swatch.webp",
+        "tintGlaze": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/tint-glaze/1407-yellow-ochre-tint-glaze.webp",
+        "tube2oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/02-oz/1407-2-yellow-ochre.webp",
+        "jar8oz": "https://images.goldenartistcolors.com/products/golden-artist-acrylics/heavy-body-color/08-oz/1407-5-yellow-ochre.webp"
+      }
+    }
+  ]
+}

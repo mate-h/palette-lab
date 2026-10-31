@@ -1,0 +1,119 @@
+# Artist Acrylic Paint Spectral, Colorimetric, and Image Dataset
+
+Roy S. Berns, Gray Sky Imaging, Rochester, NY, USA
+
+# Abstract
+
+Spectral datasets, and subsequent colorimetric and image data, have a variety of uses in cultural heritage imaging including sensor design, lighting design, synthetic target generation, spectral accuracy assessment of multispectral and hyperspectral cameras, color accuracy assessment of digital cameras, and encoding errors. Spectral data for 58 Golden Artist Colors Heavy Body Acrylics were used to calculate the spectra of 831 varnished tints, tones, and masstones, based on the two-constant opaque form of Kubelka Munk turbid-media theory. The data were used to calculate a synthetic target that was used to quantify encoding errors using AdobeRGB (1998), commonly used in cultural heritage imaging, and sRGB, commonly used in documents and consumer imaging. 22% and 31% of the target colors were out of gamut, respectively. Principal component analysis was performed and the first three eigenvectors used to extract spectra similar to cyan, magenta, and yellow. These PCA-based primaries poorly approximated the 58 pigments.
+
+# Introduction
+
+Spectral datasets, and subsequent colorimetric and image data, have a variety of uses in cultural heritage imaging including sensor design, lighting design, synthetic target generation, spectral accuracy assessment of multispectral and hyperspectral cameras, and color accuracy assessment of digital cameras.
+
+The author created such a database in 2016 using 19 acrylic paints. An Excel file was made available by request. Only highly chromatic pigments and carbon black were used. In the present work, there was a desire to include as many pigments as possible. Furthermore, a synthetic image was created to evaluate encoding errors.
+
+# Input Data
+
+The author has a long-standing relationship with Golden Artist Colors, Inc. A request was made for spectral measurement data of drawdowns used to evaluate colorant strength, opacity, evaluate pigment batch to batch consistency, etc. Golden kindly sent spectral data for 68 Heavy Body acrylic paints from measurements of drawdowns of masstones (out of the tube) and a 10% mixture with titanium white. Paints made using pigment mixtures, fluorescent colorants, and carbon and mars black were excluded resulting in 58 pigments, listed in Table I. Their color index numbers can be found on the Golden website: https://goldenpaints.com/products/colors/heavy-body. Bone black was used because it has the flattest spectrum of the three blacks.
+
+Artist acrylic paints were developed during the middle of the 20th century. The pigments listed in Table I are inorganic and organic. Their introduction as artist paints varies considerably, from cave—oxides— to contemporary—naphthol, phthalocyanine, quinacridone, and pyrrole.
+
+Table I. Database pigments and their tints and masstones.   
+
+<table><tr><td>Anthraquinone Blue</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Benzimidazolone Yellow Light</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Benzimidazolone Yellow Medium</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bismuth Vanadate Yellow</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bone Black</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Burnt Sienna</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Burnt Uumber</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Burnt Uumber Light</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cad Red Light</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cadmium Orange</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cadmium Red Dark</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cadmium Red Medium</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cadmium Yellow Dark</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cadmium Yellow Light</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cadmium Yellow Medium</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cadmium Yellow Primrose</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cerulean Blue Chromium</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cerulean Blue Deep</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Chromium Oxide Green</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Chromium Oxide Green Dark</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cobalt Blue</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cobalt Green</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cobalt Turquoise</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Diarylide Yellow</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Dioxazine Purple</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Hansa YellowOpaque</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mars Yellow</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Naphthol Red Light</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Naphthol Red Medium</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Nickel Azo Yellow</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Phthalocyanine Blue (Green Shade)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Phthalocyanine Blue (Red Shade)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Phthalocyanine Green (Blue Shade)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Phthalocyanine Green (Yellow Shade)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pyrrole Orange</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pyrrole Red</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pyrrole Red Dark</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pyrrole Red Light</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Quinacridone Burnt Orange</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Quinacridone Crimson</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Quinacridone Magenta</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Quinacridone Red</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Quinacridone Violet</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Raw Sienna</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Raw Uumber</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Red Oxide</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Titan Buff</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Titanate Yellow</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Titanium White</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Transparent Brown Iron Oxide</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Transparent Red Iron Oxide</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Transparent Yellow Iron Oxide</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ultramarine Blue</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ultramarine Violet</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Vat Orange</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Violet Oxide</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Yellow Ochre</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Yellow Oxide</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+An Xrite MS7000 spectrophotometer was used to measure the samples. The geometry was integrating sphere, specular component included. 360 – 750 nm data were truncated to 380 – 730 nm. (The dataset includes the original data for all 68 paints.) For example, the measurement data for cadmium yellow medium are plotted in Figure 1. Titanium white has strong absorption at short wavelengths. Yellow pigments have strong absorption in the blue region of the visible spectrum [1]. The slight undulation of these samples at long wavelengths was unexpected, its cause, unknown. This occurred for all the data provided by Golden. This was remedied by smoothing the reflectance data.
+
+![](images/c891f09ffc7d77db762853825cd1835107d24d367a4b38336b88d38423dcd7b6.jpg)  
+Figure 1. Spectral reflectance factor of cadmium yellow medium masstone, 10% tint, and titanium white. All graphics and images were encoded in ProPhotoRGB, converted to sRGB using relative colorimetric intent with black point compensation, saved as JPEG, and dropped into this document.
+
+# Colorant Characterization
+
+The two-constant opaque form of Kubelka-Munk turbid-media theory [2] was used to predict tints (mixtures with titanium white) and tones (mixtures with bone black) for each pigment. The Saunderson correction [3] was used to convert measured to internal reflectance: $\mathrm { K } _ { 1 }$ was set to 0.035 based on the minimum reflectance of the masstone samples; K2 was set to the theoretical value of 0.6 for a medium with refractive index of 1.5 and illumination along the normal [4]; ${ \mathrm { K } } _ { \mathrm { i n s t r u m e n t } }$ was set to 1.0 corresponding to integrating sphere with specular component included. The masstone-tint method [5, 6] was used to calculate unit absorption and scattering coefficients for each paint relative to the scattering of white defined as unity. One limitation of this method is that accuracy cannot be evaluated since the calculations are determinate: two samples and two unknowns, resulting in perfect spectral fits for the 10% tint and masstone. In the author’s experience, this method gives reasonable results. (Ideally, there should be multiple tints and for yellows, additional mixtures with black. The Saunderson coefficients and the optical coefficients of the entire dataset are optimized simultaneously to minimize RMS spectral reflectance error [7].) Because the reflectances at long wavelengths for yellow tints and white were nearly identical, as seen in Figure 1, the internal reflectance of white was scaled by 1.005, enabling estimates for these pigments. (Changes in the Saunderson coefficients were
+
+ineffective.) The strong absorption of titanium white resulted in negative optical values for cobalt and cerulean pigments. These values were corrected manually such that the masstones were well predicted.
+
+Applying a glossy picture varnish increases color gamut, when viewed away from the specular angle [1]. This was approximated computationally by setting ${ \mathrm { K } } _ { \mathrm { i n s t r u m e n t } } = 0$ when transforming from internal to external reflectance factor. This approach was verified experimentally using Pyrrole Orange and Golden MSA glossy varnish.
+
+The calculated reflectance spectra for eight tints, eight tones, and a masstone, all followed by varnishing, for cadmium yellow medium are shown in Figure 2. Increasing the concentration of the pigment tints reduces reflectance at short wavelength while increasing concentration of black reduces reflectance at long wavelengths. The transition from short to long wavelengths increases with increases in tint pigment concentration, resulting in a shift in hue towards red. Because bone black is slightly bluish, the tones become greenish with increases in black concentration. Notice that varnishing reduces reflectance, seen when comparing Figures 1 and 2.
+
+Chartreuse pigments are not manufactured. Instead, mixing the optical data of hansa yellow and phthalocyanine green (yellow shade) in different proportions resulted in four additional “pigments,” increasing the total number to 62.
+
+For summaries of the use of Kubelka-Munk theory in color technology, see references 6 – 9.
+
+![](images/c75d610b58fb80fae7334eaf79d12756a991537fd421e86497e5ba6c70527d6e.jpg)  
+Figure 2. Spectral reflectance factor of cadmium yellow medium tints, tones, and masstone, all with a glossy varnish applied.
+
+# Spectral and Colorimetric Database
+
+Eight tints, eight tones, and a masstone were calculated for the 62 pigments resulted in 1054 spectra. Some of the masstones are nearly black, seen in Table I. Adding black to these pigments results in nearly identical spectra. Accordingly, spectra with L* less than 20 were excluded. Pigments with masstones less than 20L* were added back into the data base, resulting in 831 spectra. Their CIELAB data for D50 and the 1931 standard observer are plotted in Figure 3. Many of these pigment tints have appreciable hue changes with changes in concentration. Maximum chroma is pigment
+
+dependent. The colors with very low lightness and appreciable chroma are the nearly-black masstones. (Many of the impressionists and neo-impressionists did not use black pigments, instead using. Ultramarine and Prussian blues.)
+
+![](images/4918bb5fa8986a1cf1d16ddeb0d566fcd77a7fddd83ecb1718938259ba7e488e.jpg)
+
+![](images/171de9d2c5795c4efb00c21789fa0bca5875831f9ecc57bb0b4e130b68852924.jpg)  
+Figure 3. CIELAB coordinates of the entire dataset. (Note that the hue ring is a guide to relate hue and a* b* coordinates. It does not represent a color gamut limit.)
+
+# Synthetic Target
+
+Nine spectrally flat neutrals were added to the database resulting in 840 spectra. The spectra were ordered by CIELAB hue angle. These were used to produce a synthetic color target, shown in Figure 4. The encoding was ProPhotoRGB.
+
+AdobeRGB(1998) was evaluated for encoding accuracy because of its widespread use in cultural heritage imaging, shown in Figure 5 where out of gamut colors were rendered as complementary colors. There were 183 colors out of gamut: 22%. This was why the image was encoded in ProPhotoRGB and why the author does not use AdobeRGB(1998).
+
+sRGB IEC61966-2.1 was also evaluated. sRGB remains in wide use for documents and consumer imaging There were 260 colors out of gamut: 31%.
+
+![](images/1436b9cd2522f5608963a952486ffbbcd5a5a979a1c6309e463142f26ced1767.jpg)  
+Figure 4. Synthetic target.
+
+![](images/1f03adcfc7318ee56a8280bf6594f6a40b3f49ac81c9aa29239f41fd333c421e.jpg)  
+Figure 5. Out-of-gamut colors, shown as complements, for AdobeRGB (1998) encoding.
+
+![](images/69f9e98c2e41b5986c29bee5aa7497babb89edaa48e6c44e17210e7f140487f5.jpg)  
+Figure 6. Out-of-gamut colors, shown as complements, for sRGB IEC61966- 2.1 encoding.
+
+# Principal Component Analysis
+
+A common question when analyzing a spectral database made from a large number of pigments concerns spectral redundancy. That is, is every pigment unique spectrally or can some pigments be matched with a combination of other pigments? One way to answer this question is to perform principal component analysis (PCA) where “statistical pigments” are calculated, known as eigenvectors. (PCA for color science applications is described in references 7 and 10.) One feature of PCA is each eigenvector accounts for the maximum variability possible. For example, three eigenvectors accounted for 97.97% of the total spectral variance. Six eigenvectors accounted for 99.72%. The required number of eigenvectors depend on the application and how spectral accuracy is quantified [10].
+
+There are many applications where three eigenvectors are useful as an approximation of the complete spectral dataset. For example, an RGB camera can be used for spectral imaging by estimating the amounts of each of the three eigenvectors, similar in concept to transforming densitometric film scanners into spectral scanners [11]. The first three eigenvectors are plotted in Figure 7. Negative reflectances are expected since PCA first subtracts the mean reflectance from all the spectra. It is possible to rotate these eigenvectors to approximate real spectra, shown in Figure 8. These are similar to phthalocyanine blue (green shade), quinacridone magenta, and cadmium yellow light (used as aim spectra for rotation).
+
+Spectra resulting from mixing these statistical colorants (either the eigenvectors or CMY) were calculated for each color directly. By definition, color differences for D50 are 0. One method to evaluate spectral fit is to calculate an index of metamerism using a dissimilar illuminant [10]. A 2200K blackbody radiator was chosen resulting in an average CIEDE2000 of 1.8 and a range of 0.03 – 9.88. Poor and excellent fits are shown in Figure 9. For this dataset, three primaries are insufficient to approximate the 58 pigments.
+
+![](images/056d452b37a414dff20fd09ef3dc7979cc20647891e1f1eb996871ca20d237ad.jpg)  
+Figure 7. First three eigenvectors resulting from principal component analysis.
+
+![](images/fdc6fe9a885dc9949a50d70fafc60d4313704699d90e5c008d62cbe029612627.jpg)  
+Figure 8. Rotation of first three eigenvectors resulting in spectra similar to cyan, magenta, and yellow pigments.
+
+![](images/60174c6fd2b659ae3558313c6d40a0d4778473641ceb620d72f57b3ef2293129.jpg)
+
+![](images/9432a80d8ac32b8306643ac4b128967efaebcf2f730583da152fc4d7320eab24.jpg)  
+Figure 9. Example spectral fits using PCA-based CMY primaries. The estimated spectra are shown in red.
+
+# Final Dataset
+
+An Excel spreadsheet was created containing the spectral reflectances of the data supplied by Golden, the Kubelka-Munk optical coefficients, the spectral and colorimetric data of the mixtures, the spectra used to create the synthetic image, the results of principal component analysis, and Kubelka-Munk and Saunderson details. The image is 50.7 MB with 16-bit ProPhotoRGB encoding. These are available for downloading at grayskyimaging.com.
+
+# Acknowledgments
+
+Golden Artist Colors, Inc. generously provided spectral data for their Heavy Body acrylics.
+
+# References
+
+[1] R. S. Berns, Color Science and the Visual Arts: A Guide for Conservators, Curators, and the Curious, Los Angeles: Getty Conservation Institute, 2016.   
+[2] P. Kubelka and F. Munk, Ein Beitrag zur Optik der Farbanstriche (German), Zeitschrift fur Technische Physik 12, 593 (1931).   
+[3] J. L. Saunderson, Calculation of the color of pigmented plastics, Journal of the Optical Society of America 32, 727 (1942).   
+[4] S.E. Orchard, Reflection and transmission of light by diffusing suspensions, Journal of the Optical Society of America 59, 1584 (1969).   
+[5] R.S. Berns and M. Mohammadi, Evaluating single- and two-constant Kubelka-Munk turbid media theory for instrumental-based inpainting, Studies in Conservation 32, 299 (2007).
+
+[6] Y. Zhao and R. S. Berns, Predicting the spectral reflectance factor of translucent paints using Kubelka Munk turbid media theory: Review and evaluation, Color Research and Application 34, 417 (2009).   
+[7] R. S. Berns, Billmeyer and Saltzman's Principles of Color Technology, 4 ed. New Jersey: John Wiley & Sons, Inc., 2019.   
+[8] E. Allen, Colorant formulation and shading, In Optical Radiation Measurements Volume 2 Color Measurement, edited by F. Grum and C. J. Bartleson, 290, New York: Academic Press, 1980.   
+[9] M. Park, Instrumental Colour Formulation. Bradford: Society of Dyers and Colourists, 1994.   
+[10] Tzeng, D.-Y., and R. S. Berns. A review of principal component analysis and its applications to color technology, Color Research Application 30, 84 (2005).   
+[11] R. S. Berns and M. J. Shyu, Colorimetric characterization of a desktop drum scanner using a spectral model, J. Electronic Imaging 4, 360 (1995).
+
+# Author Biography
+
+Roy S. Berns is the Chief Technical Officer at Gray Sky Imaging in Rochester, NY. Previously, he was the Richard S. Hunter Professor at Rochester Institute of Technology, USA where he developed both M.S. and Ph.D. degree programs in Color Science. He received B.S. and M.S. degrees in Textiles from the University of California at Davis and a Ph.D. degree in Chemistry from Rensselaer Polytechnic Institute. Berns has received scientific achievement awards from the Inter-Society Color Council, the Society of Imaging Science and Technology, the Colour Group of Great Britain, and the International Association of Colour.
